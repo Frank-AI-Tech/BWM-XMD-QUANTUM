@@ -20,7 +20,17 @@
     },
     "AUTO_BIO": {
       "description": "Enter yes for your bot to auto update bio",
-      "value": "yes",
+      "value": "no",
+      "required": false
+    },
+    "AUTO_REPLY_STATUS": {
+      "description": "Enter yes for your bot to notify people that you have viewed there status",
+      "value": "no",
+      "required": false
+    },
+    "REPLY_STATUS_TEXT": {
+      "description": "Enter here your message for your bot to notify people that you have viewed there status",
+      "value": "ʏᴏᴜʀ sᴛᴀᴛᴜs ʜᴀᴠᴇ ʙᴇᴇɴ ᴠɪᴇᴡᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ✅",
       "required": false
     },
     "AUTO_READ_STATUS": {
